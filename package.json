@@ -1,0 +1,26 @@
+{
+  "name": "remove-tweet-views",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "swc src --copy-files --out-dir dist",
+    "watch": "swc src --copy-files --out-dir dist --watch" 
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.3.23",
+    "@types/chrome": "^0.0.204",
+    "chokidar": "^3.5.3",
+    "typescript": "^4.9.4"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "semi": false,
+    "arrowParens": "avoid"
+  }
+}

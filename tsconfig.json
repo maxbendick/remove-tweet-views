@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "./built",
+    "allowJs": true,
+    "lib": ["es6", "dom"],
+    "target": "es5",
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["./src/**/*"]
+}
